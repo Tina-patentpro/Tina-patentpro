@@ -1,28 +1,12 @@
-# 绿洲慧写 · OasisIntWrite
+# 绿洲慧写｜开源的专利工作规则
 
-把中国专利撰写的专业方法写成可下载、可审阅、可核对边界的公开成果：
-**面向具体环节的独立 Agent Skills**，以及**专利业务 Dify 工作流的本地设计源**。
-面向专利代理师、企业 IP 团队与 Agent／Dify 开发者；辅助的是材料整理、方法复用与编排研读，
-不是已验收的成品服务。
+从一个你熟悉的专利任务开始。我们的公开规则说明要读哪些材料、怎样记录依据，以及哪些问题需要专业人员确认。
 
-## 先看哪一个：两个代表问题
+- [专利撰写 Skills](https://github.com/Tina-patentpro/oasis-patent-skills) · 按业务任务找规则和示例。
+- [专利工作流设计源](https://github.com/Tina-patentpro/oasis-dify-workflows) · 研读流程如何组织及所需依赖。
+- [团队服务](https://oasisintwrite.com/contact/) · 洽谈 AI 转型咨询、试点和私有化部署。
 
-| 你想弄明白的问题 | 从哪份材料开始 |
-|---|---|
-| 研发材料不完整、缺实验和附图时，怎样整理交底并保留待确认项？ | [oasis-patent-skills](https://github.com/Tina-patentpro/oasis-patent-skills) 的 `M05 patent-technical-disclosure`：读独立合同与调用请求示例，看「已知关系整理＋未读／未知／待确认显式保留」的写法 |
-| 一个技术背景研究环节，怎样编成可阅读、可比较的 DSL 图？ | [oasis-dify-workflows](https://github.com/Tina-patentpro/oasis-dify-workflows) 的 `Flow-1-1`（V1.0.2）：只读看 `workflow.graph.nodes`／`edges`、提示词与变量 |
-
-两份材料都从固定版本 `2026.11.07-rc1` 开始看。最短阅读路线：
-到对应仓 Release 页取该 tag → 用 `catalog.json` 核对文件名与版本 → 读包内 `SKILL.md`／
-`examples/usage.md` 或该流程的 `NOTES.md` → 先做无模型、无导入的静态审阅。
-若用 `git clone`，请 checkout 同一 `2026.11.07-rc1` tag／固定 commit；`main` 不自动等于 rc1。
-集合版本不等于单个包或单份 YML 的版本，逐项以各仓 `catalog.json` 为准。
-
-## 给三类读者
-
-- **专利代理师／专利工程师**：看 M05 的输入输出合同，以及「缺材料时仍整理已有内容，并明确标注缺口与待确认项」的处理方式，判断这套方法是否适合你的材料整理流程；输出一律需人工专业复核。
-- **企业 IP／研发负责人、专利所管理者**：先看两仓的「不面向」「费用」「数据外发」与来源许可说明，再判断是否需要就部署与材料边界进一步交流；公开仓不含模型凭据、知识库或后台服务。
-- **Agent／Dify 开发者**：按固定 ref 取文件，在自有隔离环境复现与适配；两仓 `CONTRIBUTING.md` 写明版本规则与不得提交的材料。
+目前两仓分别提供 15 个独立 Skills 预发布候选与 12 份本地维护的 Dify 工作流设计源；预发布候选与设计源都**不是**已运行验收的成品，具体版本、验证范围与人工复核要求见各仓 README 与随包说明。版本资料请按固定 Release `2026.11.07-rc1` 或固定提交核对。
 
 ## 试读 / 反馈
 
