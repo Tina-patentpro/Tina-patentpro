@@ -1,45 +1,51 @@
-# 绿洲慧写｜开源的专利工作规则
+# 绿洲慧写 · OasisIntWrite
 
-从一个你熟悉的专利任务开始。我们的公开规则说明要读哪些材料、怎样记录依据，以及哪些问题需要专业人员确认。
+**把发明人的反馈整理成可追溯的改稿依据，把需要人判断的问题留给专业人员。**
 
-- [专利撰写 Skills](https://github.com/Tina-patentpro/oasis-patent-skills) · 按业务任务找规则和示例。
-- [专利工作流设计源](https://github.com/Tina-patentpro/oasis-dify-workflows) · 研读流程如何组织及所需依赖。
-- [团队服务](https://oasisintwrite.com/contact/) · 洽谈 AI 转型咨询、试点和私有化部署。
+这里汇集了绿洲慧写公开的专利工作规则、Dify 工作流设计和本地协作工具。你可以按手头任务选一条规则试读，也可以从流程设计和部署条件开始评估。
 
-目前两仓分别提供 15 个独立 Skills 预发布候选与 12 份本地维护的 Dify 工作流设计源；预发布候选与设计源都**不是**已运行验收的成品，具体版本、验证范围与人工复核要求见各仓 README 与随包说明。版本资料请按固定 Release `2026.11.07-rc1` 或固定提交核对。
+[找一条专利规则](https://github.com/Tina-patentpro/oasis-patent-skills) · [看工作流怎么设计](https://github.com/Tina-patentpro/oasis-dify-workflows) · [连接 Codex 与 WorkBuddy](https://github.com/Tina-patentpro/workbuddy-session-bridge) · [咨询演示与部署](https://oasisintwrite.com/contact/)
 
-## 试读 / 反馈
+## 从一条发明人反馈开始
 
-从两仓 `2026.11.07-rc1` Release 下载，按仓内 `docs/installation.md` 或 `docs/import-guide.md`
-的最短路线开始。遇到问题请到对应仓 GitHub Issues，附资产 ID、集合 ref／包版本、manifest 或
-YML SHA-256、Host 或 Dify 版本、最小非敏感输入与步骤、预期与实际、已做检查和脱敏证据。
-不要在公开 Issue 提交真实案件、客户材料或任何密钥。
+假设发明人补充：“样机外壳已经换成铝材，耐热测试还没做。”下面用这条**虚构示例**说明怎么追问、怎么改稿。
 
-## 团队咨询 / 私有部署交流
+| 原始反馈 | 还要确认什么 | 如何处理稿件 |
+| --- | --- | --- |
+| 外壳已经换成铝材 | 哪一版样机用了铝材？哪份图纸或材料清单可以核对？ | 核实版本与依据后，再修改材料和结构描述。 |
+| 耐热测试还没做 | 准备在什么条件下测试？谁负责补结果？ | 保留待确认项，等到有数据再写实测结论。 |
 
-团队收费服务、系统演示、培训陪跑、私有化部署与定制工作流属与上述公开成果分离的商业事项，
-范围与价格另行确认；这里不设固定价格、不承诺服务等级或效果指标。
-请通过[官网联系页](https://oasisintwrite.com/contact/)说明**非敏感**的组织类型、
-所需业务环节与部署约束；可先提出本地／内网部署、模型选择、数据外发、权限隔离、日志与删除等要求，
-由双方进一步评估范围与验收证据。详细技术材料待双方确认渠道后再提供，不要在公开仓库提交。
+想了解怎么记录原话、证据和修改意见，先读 [M10 技术沟通与确认](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/skills/patent-technical-confirmation/SKILL.md)。想把这一步嵌入工作流，再看 [Flow-3-10 发明人沟通设计说明](https://github.com/Tina-patentpro/oasis-dify-workflows/blob/e1c170acc829ea4ae748ea81daa9b51eaf13e17a/workflows/flow-3-10-inventor-confirmation/NOTES.md)，核对节点、依赖与人工复核的位置。
 
-## 请先读这一段边界
+## 按你要做的事选择入口
 
-公开成果是**实验性候选与历史设计源**：逐文件身份校验、静态解析与机械检查已有记录。
-上游有限记录保留两次图像调用及有限模式观察，尚未取得全 15 包的真实运行验收；
-对本公开集合的准确版本，新环境安装／导入验证、专业具名审阅与用户接受未取得，
-有限观察不证明所有包、Host 或工具模式通过。工作流仓的 YML 是本地维护的设计源，
-**不是 Dify 实例上已发布应用的导出**。输出一律需人工专业复核，不可直接递交；
-这里不提供可授权、FTO、授权率或节时效果承诺。模型推理、检索与图像服务由使用方自己的
-Host／服务商提供，通常按量计费；把未公开技术材料交给第三方模型前，请自行确认保密要求。
-仓库公开或服务器本地部署本身不能证明模型请求不外发。详见各仓 `docs/verification-and-limits.md`。
+| 我想做什么 | 从哪里开始 |
+| --- | --- |
+| 整理发明人反馈、逐条分析审查意见，或做递交前复核 | [专利撰写 Skills](https://github.com/Tina-patentpro/oasis-patent-skills) 提供 15 个实验性候选包。先按任务读规则、输入要求和复核点。可从 [固定预发布](https://github.com/Tina-patentpro/oasis-patent-skills/releases/tag/2026.11.07-rc1) 下载，再看 [安装与试读](https://github.com/Tina-patentpro/oasis-patent-skills/blob/main/docs/installation.md)。 |
+| 了解专利流程怎么拆步骤，评估 Dify 依赖与导入条件 | [Dify 工作流设计](https://github.com/Tina-patentpro/oasis-dify-workflows) 提供 12 份维护中的设计源。先查 [固定预发布](https://github.com/Tina-patentpro/oasis-dify-workflows/releases/tag/2026.11.07-rc1)，再按 [研读与导入指南](https://github.com/Tina-patentpro/oasis-dify-workflows/blob/main/docs/import-guide.md) 核对。 |
+| 在 Codex 续接 WorkBuddy 的历史工作，或把任务交给 WorkBuddy | [WorkBuddy 会话桥](https://github.com/Tina-patentpro/workbuddy-session-bridge) 在同一台电脑上读取、搜索会话历史，或通过本地队列交接任务。可从 [任一端安装并验连](https://github.com/Tina-patentpro/workbuddy-session-bridge/blob/main/docs/installation.md)。 |
 
-## 其他公开仓库
+## 反馈与团队交流
 
-产品工程快照：`DSH-Oasis`、`oasis-dsh-professional-workbench`、`oasis-frontend`；
-专业工具与方法：`patent-skill-distillery`、`oasisintwrite_image_editor`；
-其他独立成果：`dsh-opentcs`、`ThinkBookFanControl-Smart`、`maidou-grade1-family-learning`、
-`desktop-tutorial`。它们各有自己的受众与许可状态，不都属于专利能力产品线。
+- **反馈规则或流程问题**。请在 [Skills Issues](https://github.com/Tina-patentpro/oasis-patent-skills/issues)、[Dify 工作流 Issues](https://github.com/Tina-patentpro/oasis-dify-workflows/issues) 或 [WorkBuddy Issues](https://github.com/Tina-patentpro/workbuddy-session-bridge/issues) 提交。写清版本或提交、最小复现步骤、预期与实际。公开 Issue 请使用脱敏材料。
+- **了解演示、试点、培训、定制或私有化部署**。请通过 [官网联系页](https://oasisintwrite.com/contact/) 说明组织类型、希望验证的业务环节，以及内网、模型和数据权限要求。团队服务的范围和价格按实际需求确认。
 
-许可：两主仓按各自 LICENSE／NOTICE 声明采用 Apache-2.0，权利主体 OasisIntWrite；
-第三方组件和其他仓库按各自许可及公开范围核对。
+<details>
+<summary>验证状态、数据与许可</summary>
+
+Skills 已有静态与机械检查及有限的上游运行观察，完整包集的真实运行验收、新环境安装、专业审阅和用户接受仍待完成。工作流 YML 为本地维护的设计源，Dify 实例发布导出及导入、运行验证属于独立事项。详见 [Skills 验证说明](https://github.com/Tina-patentpro/oasis-patent-skills/blob/main/docs/verification-and-limits.md) 和 [Dify 工作流验证说明](https://github.com/Tina-patentpro/oasis-dify-workflows/blob/main/docs/verification-and-limits.md)。
+
+专利输出需经专业人员复核后再用于递交。模型、检索和图像服务由使用方配置，费用及数据处理规则以所选服务为准。涉及未公开技术材料时，应核对模型请求的数据去向与保密要求。
+
+Skills 和 Dify 工作流分别按各仓 LICENSE／NOTICE 声明采用 Apache-2.0。其他仓库、第三方组件和服务请核对各自声明。
+
+</details>
+
+<details>
+<summary>更多公开仓库</summary>
+
+- 产品工程：[DSH-Oasis](https://github.com/Tina-patentpro/DSH-Oasis)、[DSH 专业工作台](https://github.com/Tina-patentpro/oasis-dsh-professional-workbench)、[Oasis 前端](https://github.com/Tina-patentpro/oasis-frontend)。
+- 专业工具与方法：[专利 Skill 蒸馏](https://github.com/Tina-patentpro/patent-skill-distillery)、[图像编辑器](https://github.com/Tina-patentpro/oasisintwrite_image_editor)。
+- 其他项目：[dsh-opentcs](https://github.com/Tina-patentpro/dsh-opentcs)、[ThinkBookFanControl-Smart](https://github.com/Tina-patentpro/ThinkBookFanControl-Smart)、[麦兜家庭学习](https://github.com/Tina-patentpro/maidou-grade1-family-learning)、[桌面教程](https://github.com/Tina-patentpro/desktop-tutorial)。
+
+</details>
