@@ -4,7 +4,17 @@
 
 这里汇集了绿洲慧写公开的专利工作规则、Dify 工作流设计和本地协作工具。你可以按手头任务选一条规则试读，也可以从流程设计和部署条件开始评估。
 
-[找一条专利规则](https://github.com/Tina-patentpro/oasis-patent-skills) · [看工作流怎么设计](https://github.com/Tina-patentpro/oasis-dify-workflows) · [连接 Codex 与 WorkBuddy](https://github.com/Tina-patentpro/workbuddy-session-bridge) · [咨询演示与部署](https://oasisintwrite.com/contact/)
+[免登录看演示](#免登录试用) · [找一条专利规则](https://github.com/Tina-patentpro/oasis-patent-skills) · [看工作流怎么设计](https://github.com/Tina-patentpro/oasis-dify-workflows) · [连接 Codex 与 WorkBuddy](https://github.com/Tina-patentpro/workbuddy-session-bridge) · [咨询演示与部署](https://oasisintwrite.com/contact/)
+
+## 免登录试用
+
+[![绿洲慧写官网实拍，OASIS-5 播放区和五步选择按钮](docs/demo/oasis-five-steps.png)](https://oasisintwrite.com/#oasis-5)
+
+1. [打开官网五步演示](https://oasisintwrite.com/#oasis-5)。先点 **Optimize｜交底优化**，看怎样把原始材料和需要确认的问题分开。
+2. 再点 **Structure｜结构确认** 或 **Secure｜质量把关**，查看后续环节。可先看 [8 秒操作动图](docs/demo/oasis-five-steps.gif)。
+3. 想自己试读，就用下方的虚构反馈对照 [M10 技术沟通与确认](https://github.com/Tina-patentpro/oasis-patent-skills/blob/ff5caabbdc3c29a2c703bacb193450d495ee6c4a/skills/patent-technical-confirmation/SKILL.md)，写出一条追问、一条待确认项。
+
+以上体验无需登录或上传文件。[在线工作台](https://app.oasisintwrite.com/) 需登录，运行任务前请查看界面所示价格。
 
 ## 从一条发明人反馈开始
 
