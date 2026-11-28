@@ -55,7 +55,7 @@ Skills 和 Dify 工作流分别按各仓 LICENSE／NOTICE 声明采用 Apache-2.
 
 - 产品工程：[DSH-Oasis](https://github.com/Tina-patentpro/DSH-Oasis)、[DSH 专业工作台](https://github.com/Tina-patentpro/oasis-dsh-professional-workbench)、[Oasis 前端](https://github.com/Tina-patentpro/oasis-frontend)。
 - 专业工具与方法：[专利 Skill 蒸馏](https://github.com/Tina-patentpro/patent-skill-distillery)、[图像编辑器](https://github.com/Tina-patentpro/oasisintwrite_image_editor)。
-- 协作工具：[WorkBuddy 会话桥](https://github.com/Tina-patentpro/workbuddy-session-bridge)。
+- 协作工具：[WorkBuddy 会话桥](https://github.com/Tina-patentpro/workbuddy-session-bridge/blob/main/README.md)。
 - 其他项目：[dsh-opentcs](https://github.com/Tina-patentpro/dsh-opentcs)、[ThinkBookFanControl-Smart](https://github.com/Tina-patentpro/ThinkBookFanControl-Smart)、[麦兜家庭学习](https://github.com/Tina-patentpro/maidou-grade1-family-learning)、[桌面教程](https://github.com/Tina-patentpro/desktop-tutorial)。
 
 </details>
